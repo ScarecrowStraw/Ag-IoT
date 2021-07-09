@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="Images">
+    <file>Resources/background.png</file>
+    <file>Resources/machine.png</file>
+    <file>Resources/machine-2.png</file>
+    <file>Resources/mushroom-01.png</file>
+  </qresource>
+  <qresource prefix="Colormap">
+    <file>Resources/colormap_deepgreen.png</file>
+    <file>Resources/colormap_jet.png</file>
+    <file>Resources/colormap_ocean.png</file>
+    <file>Resources/colormap_winter.png</file>
+  </qresource>
+  <qresource prefix="Data">
+    <file>Database/devices.json</file>
+    <file>Database/login.json</file>
+    <file>Database/mongodb.json</file>
+  </qresource>
+</RCC>

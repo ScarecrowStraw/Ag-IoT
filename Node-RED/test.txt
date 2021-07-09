@@ -1,0 +1,24 @@
+# LoRa
+"id=<12345>&data=c000s000g000t073r000p000h56b10152c00.0&status=MQTTPUBLISH"
+"id=22345&data=C0:102.64NH3:48.88NO2:0.93Vis:0IR:0UV:0.00.02&status=MQTTPUBLISH"
+
+var c = msg.payload.indexOf("c");
+var s = msg.payload.indexOf("s");
+var g = ms1g.payload.indexOf("g");
+var t = msg.payload.indexOf("t");
+var r = msg.payload.indexOf("r");
+var p = msg.payload.indexOf("p");
+var h = msg.payload.indexOf("h");
+var b = msg.payload.indexOf("b");
+
+var msg1 = {};
+msg1.payload = '{"wd":' + msg.payload.substr(c,3) + ',' +
+            '"aws":' + msg.payload.substr(s,3) + ',' +
+            '"mws":' + msg.payload.substr(g,3) + ',' +
+            '"rf1":' + msg.payload.substr(r,3) + ',' +
+            '"rf24":' + msg.payload.substr(p,3) + ',' +
+            '"t":' + msg.payload.substr(t,3) + ','+
+	    '"h":' + msg.payload.substr(h,2) + ',' +
+	    '"b":' + msg.payload.substr(b,5) + '}';
+            
+return msg1;

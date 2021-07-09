@@ -1,0 +1,10 @@
+[
+  {"hostname" : "citlab.myftp.org",
+    "mongodb-port" : 27017,
+    "iot-port" : 1880
+  },
+  {"hostname" : "hoangqc.myftp.org",
+    "ua mongodb-port" : 27017,
+    "iot-port" : 1880
+  }
+]

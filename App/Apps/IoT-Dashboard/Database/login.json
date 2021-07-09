@@ -1,0 +1,32 @@
+[
+    {
+        "email": "",
+        "id": 1,
+        "pw": "123456",
+        "uname": "hoangqc"
+    },
+    {
+        "email": "",
+        "id": 2,
+        "pw": "1",
+        "uname": "cit"
+    },
+    {
+        "email": "",
+        "id": 3,
+        "pw": "0123456@!",
+        "uname": "cit-wifi"
+    },
+    {
+        "email": "cit.lab.***@gmail.com",
+        "id": 4,
+        "pw": "Cit0123456@!",
+        "uname": "cit-apple-id"
+    },
+    {
+        "email": "cit.lab.***@gmail.com",
+        "id": 5,
+        "pw": "0123456@!",
+        "uname": "cit-google"
+    }
+]
